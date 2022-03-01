@@ -1,0 +1,28 @@
+version: '3.4'
+
+services:
+  advertsgoapi:
+    image: advertsgoapi
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      DB_USERNAME: "pguser"
+      DB_PASSWORD: "pgpwd4"
+      DB_HOST: "postgres"
+      DB_PORT: "5432"
+      DB_NAME: "advertsdb"
+    ports:
+      - 8080:8080
+    depends_on:
+      - postgres
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_DB: "advertsdb"
+      POSTGRES_USER: "pguser"
+      POSTGRES_PASSWORD: "pgpwd4"
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"

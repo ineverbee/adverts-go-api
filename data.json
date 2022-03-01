@@ -1,0 +1,29 @@
+[
+    {
+        "title": "iPhone 12",
+        "ad_description": "Base variant of iPhone 12",
+        "price": 80000,
+        "photos": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUriZwT-g07Lhj-UyVC3jxUgzdAP5pA1vVRbudohz23XI0JcNg2yhg48QsQLj__8_4LMM&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTctAyOkB4bRGA8nbAXBezBm-E7kCFiMqSEvQ&usqp=CAU"
+        ]
+    },
+    {
+        "title": "iPhone 12 Pro",
+        "ad_description": "Pro variant of iPhone 12",
+        "price": 100000,
+        "photos": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlRK_Wk221A53wUHtofLw5kjvYHhDVhk8_9JexEwdHu2Pf6M9fvC-98NWf_l2R3l-jHls&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwoA16SI6Ble9Rn9TW6xtvRE8Zj-jiM_feug&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx0Z2zDh2N8COfi_0PPjGVFnqb5cd4WaoPnQ&usqp=CAU"
+        ]
+    },
+    {
+        "title": "iPhone 12 Pro Max",
+        "ad_description": "Pro max variant of iPhone 12",
+        "price": 120000,
+        "photos": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrDDHFoCjS1497AkzkC8IeAOPwzb__ZDpHqw&usqp=CAU"
+        ]
+    }
+]
